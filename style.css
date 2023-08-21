@@ -151,6 +151,7 @@ html,body{
 }
 
 .elem {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -170,7 +171,7 @@ html,body{
 }
 
 .elem img {
-    display: none;
+    opacity: 0;
     height: 140%;
     z-index: 999;
     position: absolute;
